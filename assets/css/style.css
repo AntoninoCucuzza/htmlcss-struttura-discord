@@ -24,6 +24,12 @@ section{
     align-items: center;
 }
 
+footer{
+    background-color: tomato;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
 /* #endregion common */
 
 
@@ -77,6 +83,10 @@ section{
 .odd{
     background-color: gainsboro;
 }
+
+.even{
+    background-color: #fff;
+}
 .container{
     background-color: greenyellow; 
     height: 70%;
@@ -94,9 +104,22 @@ section{
     height: 100%;
 
 }
-.col{
+
+.col60{
     background-color: aquamarine;
-    width: 100%;
+    border: 1px solid black;
+    width: 60%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.col40{
+    background-color: aquamarine;
+    border: 1px solid black;
+    width: 40%;
     height: 90%;
     display: flex;
     justify-content: center;
@@ -113,9 +136,66 @@ section{
 
 
 
+.containerone{
+    background-color: blue;
+    height: 90%;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
 
 
 /* #endregion main */
+
+/* #region footer */
+
+.footer-container{
+    background-color: aquamarine;
+    height: 90%;
+    width: 80%;
+    padding: 1rem 0;
+}
+
+.footer-row{
+    background-color: blueviolet;
+    height: 90%;
+    display: flex;
+    align-items: center;
+
+}
+.footer-huge-col{
+    background-color: cadetblue;
+    height: 90%;
+    width: 60%;
+    margin: 1rem;
+
+}
+.footer-col{
+    width: calc(100%/4);
+    background-color: #fff;
+    height: 90%;
+    margin: 1rem;
+}
+
+.footer-bot{
+    background-color: chartreuse;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-end{
+    background-color: black;
+    height: 100%;
+    width: 200px;
+}
+
+
+
+/* #endregion footer */
+
 /* #region utilities */
 
 
