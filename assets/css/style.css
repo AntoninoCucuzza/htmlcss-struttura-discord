@@ -1,5 +1,69 @@
+/* #region common */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+#header_top{
+    background-color: aquamarine;
+}
+
+nav{
+    height: 100px;
+    background-color: blue;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* #endregion common */
+
+
+/* #region debug */
+
+
+
+.small{
+    flex-grow: 20;
+}
+
+.huge{
+    flex-grow: 80;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.mimic{
+    height: 50px;
+    border: 3px solid black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+#header_bot{
+    background-color: black;
+    height: 600px ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#placeholder{
+    width: 50%;
+    height: 60%;
+    background-color: aliceblue;
+   
+}
+
+/* #endregion debug */
+
+/* #region utilities */
+
+
+/* #endregion utilities */
